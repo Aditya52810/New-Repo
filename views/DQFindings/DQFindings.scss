@@ -1,0 +1,29 @@
+.btn {
+  // border: none ;
+  &.no-outline {
+    border: none !important
+  }
+  &.bg-success-teal {
+    background-color: #00A3A1
+  }
+  &.bg-success-teal:hover{
+    background-color: #007876 !important;
+    border-color: #398439 !important;
+  }
+
+  &.bg-warning-yellow {
+    background-color: #eaaa00;
+  }
+  &.bg-warning-yellow:hover{
+    background-color: #ec971f !important;
+    border-color: #d58512 !important;
+  }
+
+  &.bg-danger-brown {
+    background-color: #9b642e;
+  }
+  &.bg-danger-brown:hover{
+    background-color: #6e4620 !important;
+    border-color: #ac2925 !important;
+  }
+}

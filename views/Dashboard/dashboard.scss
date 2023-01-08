@@ -1,0 +1,14 @@
+//@import "../styles/variables";
+
+.small-size-card{
+    .stats-small {
+        min-height: 8.5rem;
+        background-color: white;
+        border-radius: 40%;
+        text-align: center;
+        padding: 25px;
+        cursor:pointer;
+        border-color: #387cb4 ;
+       
+    }
+}

@@ -1,0 +1,37 @@
+$button-blue-light: #0099FF;
+
+$button-red-light: #DF2029;
+
+.create-rule-button {
+  height: 100%;
+  width: 100%;
+  
+	background-color: $button-blue-light;
+  border: 1px solid $button-blue-light;
+
+  background-opacity: 0.5;
+
+  &:hover {
+    color: white;
+  }
+
+  button {
+    background-color: $button-blue-light;
+    border: 1px solid $button-blue-light;
+  }
+}
+
+.delete-rules-button {
+  background-color: $button-red-light;
+  border: 1px solid $button-red-light;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.react-confirm-alert-body{
+  h1{
+    font-size: 30px;
+  }
+}
